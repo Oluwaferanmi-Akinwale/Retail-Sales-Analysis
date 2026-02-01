@@ -1,0 +1,501 @@
+OrderID,OrderDate,ShipDate,ShipMode,CustomerID,Segment,Country,City,Category,SubCategory,Quantity,Sales,Discount,Profit,Region,PaymentType
+ORD-1000,2024-03-03,2024-03-05,Same Day,CUST-189,Home Office,UK,London,Office Supplies,Pens,7,226.52,0.0,41.98,East,Card
+ORD-1001,2024-05-23,2024-05-25,Express,CUST-703,Corporate,USA,Los Angeles,Office Supplies,Paper,1,1079.71,0.2,115.66,West,Mobile Payment
+ORD-1002,2024-03-27,2024-03-28,Express,CUST-718,Corporate,Canada,Vancouver,Office Supplies,Binders,1,157.26,0.0,19.15,South,Card
+ORD-1003,2024-06-09,2024-06-14,Same Day,CUST-171,Consumer,Canada,Toronto,Technology,Monitors,4,1330.47,0.1,198.14,Central,Card
+ORD-1004,2024-04-26,2024-04-29,Express,CUST-818,Home Office,USA,New York,Furniture,Bookcases,2,260.73,0.1,21.57,Europe,Bank Transfer
+ORD-1005,2024-04-28,2024-05-02,Express,CUST-963,Consumer,UK,Birmingham,Office Supplies,Binders,4,419.52,0.2,31.52,East,Cash
+ORD-1006,2024-05-25,2024-05-28,Same Day,CUST-569,Consumer,Canada,Vancouver,Office Supplies,Binders,5,334.69,0.15,36.73,West,Bank Transfer
+ORD-1007,2024-05-29,2024-06-02,Standard,CUST-621,Corporate,UK,Birmingham,Technology,Monitors,2,1348.78,0.15,140.33,East,Card
+ORD-1008,2024-06-01,2024-06-02,Same Day,CUST-357,Home Office,USA,Los Angeles,Technology,Accessories,1,589.46,0.2,117.53,East,Cash
+ORD-1009,2024-04-21,2024-04-23,Standard,CUST-619,Consumer,UK,Manchester,Office Supplies,Pens,5,691.51,0.1,152.09,Europe,Bank Transfer
+ORD-1010,2024-06-02,2024-06-05,Express,CUST-345,Consumer,USA,Chicago,Office Supplies,Paper,4,743.14,0.0,175.25,Europe,Card
+ORD-1011,2024-02-02,2024-02-06,Same Day,CUST-533,Consumer,USA,Houston,Office Supplies,Binders,9,1421.34,0.05,139.09,West,Cash
+ORD-1012,2024-04-22,2024-04-27,Express,CUST-121,Home Office,Canada,Calgary,Technology,Monitors,9,688.2,0.05,62.07,West,Bank Transfer
+ORD-1013,2024-02-28,2024-02-29,Standard,CUST-385,Home Office,USA,New York,Technology,Phones,8,1360.02,0.1,78.55,West,Bank Transfer
+ORD-1014,2024-03-03,2024-03-07,Same Day,CUST-541,Corporate,UK,Birmingham,Technology,Accessories,7,1215.1,0.05,79.49,South,Mobile Payment
+ORD-1015,2024-01-16,2024-01-20,Standard,CUST-649,Corporate,UK,London,Technology,Phones,3,1097.76,0.0,109.48,South,Bank Transfer
+ORD-1016,2024-04-23,2024-04-28,Standard,CUST-871,Consumer,Canada,Vancouver,Office Supplies,Paper,3,164.9,0.2,28.65,South,Mobile Payment
+ORD-1017,2024-02-12,2024-02-16,Express,CUST-392,Corporate,Canada,Toronto,Furniture,Chairs,9,23.19,0.15,2.03,South,Bank Transfer
+ORD-1018,2024-05-28,2024-06-02,Same Day,CUST-588,Home Office,USA,Chicago,Office Supplies,Paper,9,110.22,0.1,6.09,West,Card
+ORD-1019,2024-06-01,2024-06-02,Same Day,CUST-352,Home Office,UK,London,Office Supplies,Paper,10,1019.31,0.05,126.62,East,Card
+ORD-1020,2024-03-07,2024-03-09,Express,CUST-234,Home Office,Canada,Calgary,Technology,Monitors,5,1011.19,0.1,88.95,South,Cash
+ORD-1021,2024-01-19,2024-01-24,Express,CUST-170,Consumer,USA,New York,Furniture,Chairs,6,335.47,0.1,23.09,Central,Bank Transfer
+ORD-1022,2024-06-05,2024-06-10,Same Day,CUST-206,Consumer,Canada,Calgary,Technology,Monitors,5,31.58,0.2,2.78,East,Card
+ORD-1023,2024-03-13,2024-03-18,Same Day,CUST-973,Corporate,UK,Birmingham,Office Supplies,Pens,9,331.73,0.1,27.08,South,Cash
+ORD-1024,2024-03-11,2024-03-12,Express,CUST-265,Home Office,USA,New York,Technology,Accessories,8,25.25,0.05,4.26,Europe,Mobile Payment
+ORD-1025,2024-06-25,2024-06-27,Standard,CUST-540,Consumer,UK,London,Office Supplies,Paper,1,827.47,0.1,124.0,Central,Cash
+ORD-1026,2024-06-19,2024-06-20,Express,CUST-735,Home Office,USA,Chicago,Office Supplies,Binders,3,543.44,0.2,98.61,West,Bank Transfer
+ORD-1027,2024-03-26,2024-03-30,Same Day,CUST-210,Corporate,USA,Houston,Office Supplies,Binders,1,1207.31,0.05,118.55,South,Bank Transfer
+ORD-1028,2024-02-28,2024-03-01,Express,CUST-985,Consumer,USA,Houston,Furniture,Bookcases,5,55.02,0.05,6.78,Central,Mobile Payment
+ORD-1029,2024-01-30,2024-02-02,Same Day,CUST-544,Corporate,UK,Birmingham,Furniture,Chairs,6,284.28,0.1,14.75,South,Card
+ORD-1030,2024-01-12,2024-01-16,Same Day,CUST-854,Home Office,Canada,Calgary,Office Supplies,Pens,4,22.5,0.2,3.37,Central,Mobile Payment
+ORD-1031,2024-06-18,2024-06-19,Same Day,CUST-518,Corporate,USA,Chicago,Technology,Monitors,7,1085.24,0.1,147.9,Central,Bank Transfer
+ORD-1032,2024-06-22,2024-06-24,Standard,CUST-411,Corporate,USA,Houston,Technology,Accessories,4,930.96,0.1,109.94,South,Cash
+ORD-1033,2024-05-10,2024-05-14,Express,CUST-627,Home Office,Canada,Vancouver,Furniture,Tables,10,1194.73,0.05,206.31,Central,Card
+ORD-1034,2024-02-07,2024-02-08,Standard,CUST-566,Corporate,USA,Chicago,Office Supplies,Binders,10,88.4,0.15,12.94,West,Mobile Payment
+ORD-1035,2024-06-16,2024-06-17,Standard,CUST-280,Home Office,Canada,Vancouver,Office Supplies,Binders,9,1341.14,0.0,275.85,South,Card
+ORD-1036,2024-02-04,2024-02-08,Express,CUST-727,Home Office,UK,London,Office Supplies,Folders,9,1008.02,0.2,136.36,South,Mobile Payment
+ORD-1037,2024-03-04,2024-03-07,Standard,CUST-381,Corporate,USA,Houston,Furniture,Bookcases,2,1153.4,0.2,135.57,Central,Bank Transfer
+ORD-1038,2024-02-05,2024-02-07,Standard,CUST-524,Corporate,Canada,Vancouver,Furniture,Chairs,6,362.27,0.05,65.83,Europe,Mobile Payment
+ORD-1039,2024-04-09,2024-04-14,Same Day,CUST-489,Corporate,Canada,Toronto,Office Supplies,Folders,1,1420.17,0.0,314.35,Central,Cash
+ORD-1040,2024-05-04,2024-05-06,Express,CUST-784,Home Office,Canada,Vancouver,Technology,Laptops,7,423.94,0.15,20.11,West,Mobile Payment
+ORD-1041,2024-04-10,2024-04-15,Express,CUST-238,Corporate,USA,Miami,Technology,Phones,3,855.3,0.0,57.13,East,Cash
+ORD-1042,2024-03-24,2024-03-27,Express,CUST-358,Consumer,Canada,Vancouver,Office Supplies,Folders,8,1146.62,0.15,102.97,East,Card
+ORD-1043,2024-06-15,2024-06-16,Standard,CUST-736,Consumer,Canada,Toronto,Technology,Phones,4,1136.27,0.05,97.01,West,Mobile Payment
+ORD-1044,2024-04-29,2024-05-02,Same Day,CUST-835,Consumer,UK,London,Technology,Laptops,3,1155.01,0.05,187.83,Central,Card
+ORD-1045,2024-04-11,2024-04-13,Express,CUST-970,Home Office,UK,London,Furniture,Sofas,10,132.47,0.05,8.86,East,Card
+ORD-1046,2024-01-18,2024-01-23,Express,CUST-208,Corporate,Canada,Calgary,Furniture,Bookcases,6,978.36,0.0,215.16,South,Bank Transfer
+ORD-1047,2024-06-06,2024-06-11,Same Day,CUST-706,Corporate,Canada,Toronto,Technology,Monitors,6,1166.47,0.15,135.95,West,Card
+ORD-1048,2024-05-25,2024-05-30,Express,CUST-286,Corporate,Canada,Vancouver,Office Supplies,Folders,4,1008.92,0.1,50.61,Central,Cash
+ORD-1049,2024-05-22,2024-05-23,Same Day,CUST-516,Corporate,Canada,Vancouver,Technology,Monitors,9,784.61,0.05,50.03,West,Mobile Payment
+ORD-1050,2024-01-05,2024-01-06,Express,CUST-779,Home Office,UK,Birmingham,Furniture,Sofas,6,455.47,0.15,72.92,South,Cash
+ORD-1051,2024-03-31,2024-04-04,Same Day,CUST-297,Corporate,Canada,Calgary,Technology,Monitors,2,420.96,0.1,36.41,Europe,Bank Transfer
+ORD-1052,2024-03-11,2024-03-16,Standard,CUST-952,Consumer,USA,Los Angeles,Technology,Accessories,5,1465.38,0.2,198.54,West,Cash
+ORD-1053,2024-03-11,2024-03-12,Standard,CUST-753,Corporate,USA,Chicago,Office Supplies,Binders,2,1461.96,0.2,126.81,East,Cash
+ORD-1054,2024-02-17,2024-02-18,Standard,CUST-510,Corporate,Canada,Vancouver,Furniture,Bookcases,2,393.67,0.15,24.37,Europe,Card
+ORD-1055,2024-01-22,2024-01-24,Same Day,CUST-331,Home Office,USA,Los Angeles,Technology,Monitors,7,195.31,0.15,28.43,South,Mobile Payment
+ORD-1056,2024-05-25,2024-05-30,Standard,CUST-740,Consumer,Canada,Calgary,Furniture,Bookcases,5,109.14,0.0,26.14,East,Bank Transfer
+ORD-1057,2024-02-10,2024-02-11,Standard,CUST-337,Corporate,USA,Los Angeles,Technology,Phones,5,624.61,0.2,71.95,South,Card
+ORD-1058,2024-04-18,2024-04-19,Standard,CUST-173,Consumer,UK,London,Furniture,Tables,3,825.95,0.05,181.79,Central,Cash
+ORD-1059,2024-06-28,2024-07-02,Express,CUST-182,Home Office,Canada,Toronto,Furniture,Bookcases,1,1415.16,0.2,178.87,South,Cash
+ORD-1060,2024-02-28,2024-03-04,Same Day,CUST-941,Corporate,UK,Manchester,Office Supplies,Paper,10,888.94,0.0,222.16,East,Bank Transfer
+ORD-1061,2024-03-12,2024-03-14,Express,CUST-193,Corporate,Canada,Calgary,Technology,Accessories,6,1495.48,0.15,224.94,South,Cash
+ORD-1062,2024-03-25,2024-03-29,Express,CUST-933,Home Office,Canada,Calgary,Office Supplies,Binders,1,1046.64,0.1,171.93,South,Card
+ORD-1063,2024-04-13,2024-04-18,Same Day,CUST-573,Corporate,Canada,Vancouver,Furniture,Chairs,1,1240.89,0.0,225.26,West,Cash
+ORD-1064,2024-01-14,2024-01-16,Express,CUST-815,Corporate,UK,Manchester,Technology,Accessories,2,415.24,0.05,92.91,East,Bank Transfer
+ORD-1065,2024-05-21,2024-05-25,Standard,CUST-763,Consumer,UK,London,Furniture,Chairs,8,157.95,0.0,22.47,Central,Cash
+ORD-1066,2024-04-26,2024-05-01,Same Day,CUST-864,Consumer,Canada,Vancouver,Furniture,Tables,2,234.07,0.05,52.12,Central,Mobile Payment
+ORD-1067,2024-03-13,2024-03-16,Express,CUST-986,Consumer,Canada,Calgary,Furniture,Chairs,8,1259.46,0.2,251.67,Europe,Mobile Payment
+ORD-1068,2024-04-26,2024-04-29,Standard,CUST-976,Corporate,Canada,Vancouver,Technology,Accessories,1,1307.01,0.05,204.08,Central,Mobile Payment
+ORD-1069,2024-05-06,2024-05-07,Standard,CUST-995,Corporate,UK,Manchester,Furniture,Tables,2,206.84,0.2,19.26,Europe,Mobile Payment
+ORD-1070,2024-01-20,2024-01-24,Same Day,CUST-507,Home Office,USA,Los Angeles,Furniture,Tables,2,1176.66,0.1,124.66,Central,Mobile Payment
+ORD-1071,2024-05-18,2024-05-19,Express,CUST-332,Home Office,Canada,Calgary,Technology,Accessories,2,933.84,0.05,156.34,South,Card
+ORD-1072,2024-02-12,2024-02-15,Standard,CUST-400,Corporate,UK,Birmingham,Office Supplies,Folders,6,1357.07,0.0,155.89,South,Bank Transfer
+ORD-1073,2024-02-13,2024-02-15,Standard,CUST-609,Home Office,USA,Miami,Furniture,Tables,3,136.87,0.15,20.24,West,Mobile Payment
+ORD-1074,2024-06-19,2024-06-20,Same Day,CUST-659,Consumer,UK,Manchester,Furniture,Bookcases,2,1350.38,0.15,264.28,South,Cash
+ORD-1075,2024-06-25,2024-06-28,Express,CUST-973,Corporate,UK,Manchester,Technology,Accessories,2,696.12,0.1,56.29,West,Mobile Payment
+ORD-1076,2024-06-28,2024-07-01,Same Day,CUST-985,Home Office,UK,Manchester,Technology,Monitors,1,52.47,0.15,4.68,Europe,Mobile Payment
+ORD-1077,2024-02-26,2024-02-28,Same Day,CUST-761,Consumer,Canada,Toronto,Technology,Monitors,5,938.92,0.05,156.67,South,Card
+ORD-1078,2024-01-24,2024-01-27,Standard,CUST-905,Home Office,UK,Manchester,Technology,Laptops,6,503.54,0.15,36.44,Europe,Cash
+ORD-1079,2024-03-27,2024-03-28,Standard,CUST-980,Home Office,USA,Chicago,Furniture,Bookcases,7,713.13,0.0,55.73,Europe,Cash
+ORD-1080,2024-05-17,2024-05-18,Same Day,CUST-480,Consumer,USA,Houston,Office Supplies,Pens,4,693.08,0.1,104.12,South,Card
+ORD-1081,2024-06-14,2024-06-15,Express,CUST-764,Corporate,UK,Birmingham,Furniture,Tables,2,960.4,0.15,189.29,West,Card
+ORD-1082,2024-01-25,2024-01-27,Express,CUST-786,Home Office,USA,Chicago,Furniture,Chairs,9,1333.14,0.05,161.77,South,Bank Transfer
+ORD-1083,2024-06-06,2024-06-10,Express,CUST-322,Corporate,Canada,Calgary,Office Supplies,Folders,8,1409.8,0.1,71.74,West,Cash
+ORD-1084,2024-01-16,2024-01-20,Express,CUST-193,Home Office,USA,Chicago,Technology,Monitors,4,428.3,0.0,102.71,Europe,Card
+ORD-1085,2024-05-24,2024-05-26,Standard,CUST-932,Consumer,USA,Chicago,Office Supplies,Binders,6,121.54,0.2,8.89,West,Card
+ORD-1086,2024-02-14,2024-02-15,Express,CUST-908,Consumer,Canada,Toronto,Office Supplies,Pens,10,998.37,0.0,76.24,Central,Card
+ORD-1087,2024-04-17,2024-04-22,Express,CUST-625,Home Office,USA,Chicago,Office Supplies,Binders,2,188.2,0.0,27.34,South,Bank Transfer
+ORD-1088,2024-04-27,2024-04-28,Express,CUST-802,Consumer,UK,London,Technology,Monitors,8,110.02,0.15,20.52,South,Card
+ORD-1089,2024-01-17,2024-01-19,Express,CUST-490,Home Office,USA,Chicago,Technology,Laptops,9,427.02,0.2,54.55,Central,Mobile Payment
+ORD-1090,2024-06-28,2024-06-29,Standard,CUST-540,Corporate,UK,Birmingham,Furniture,Chairs,4,1282.13,0.2,199.16,South,Cash
+ORD-1091,2024-03-21,2024-03-25,Standard,CUST-803,Corporate,Canada,Vancouver,Furniture,Chairs,2,482.53,0.1,54.22,East,Card
+ORD-1092,2024-02-03,2024-02-08,Same Day,CUST-225,Corporate,USA,Houston,Office Supplies,Pens,6,108.77,0.2,14.13,South,Card
+ORD-1093,2024-01-27,2024-02-01,Standard,CUST-967,Consumer,Canada,Calgary,Furniture,Bookcases,6,770.97,0.05,132.82,Europe,Cash
+ORD-1094,2024-04-19,2024-04-24,Same Day,CUST-670,Consumer,USA,Chicago,Technology,Laptops,10,1462.33,0.2,202.05,Central,Card
+ORD-1095,2024-03-27,2024-03-30,Express,CUST-171,Consumer,USA,Chicago,Technology,Monitors,1,29.04,0.05,4.5,East,Bank Transfer
+ORD-1096,2024-02-10,2024-02-13,Same Day,CUST-710,Consumer,Canada,Vancouver,Furniture,Bookcases,1,481.22,0.1,88.94,West,Bank Transfer
+ORD-1097,2024-03-10,2024-03-14,Express,CUST-379,Consumer,UK,London,Technology,Phones,9,999.67,0.15,145.65,East,Cash
+ORD-1098,2024-05-14,2024-05-17,Standard,CUST-107,Consumer,Canada,Toronto,Furniture,Sofas,5,87.22,0.15,18.3,West,Bank Transfer
+ORD-1099,2024-01-02,2024-01-06,Same Day,CUST-820,Consumer,Canada,Vancouver,Furniture,Chairs,9,1125.58,0.05,81.09,Europe,Cash
+ORD-1100,2024-04-21,2024-04-22,Same Day,CUST-539,Home Office,USA,Houston,Technology,Phones,7,700.44,0.0,155.79,South,Cash
+ORD-1101,2024-02-13,2024-02-18,Standard,CUST-349,Corporate,USA,Houston,Office Supplies,Pens,10,700.94,0.1,42.66,South,Card
+ORD-1102,2024-02-26,2024-02-29,Standard,CUST-643,Home Office,Canada,Vancouver,Technology,Monitors,4,1173.09,0.0,178.42,Central,Cash
+ORD-1103,2024-01-27,2024-01-29,Same Day,CUST-177,Consumer,UK,Birmingham,Office Supplies,Binders,8,398.83,0.05,64.59,South,Mobile Payment
+ORD-1104,2024-06-09,2024-06-12,Same Day,CUST-410,Corporate,UK,Birmingham,Technology,Monitors,10,243.42,0.0,35.0,East,Cash
+ORD-1105,2024-04-25,2024-04-26,Standard,CUST-729,Home Office,UK,London,Furniture,Sofas,9,104.2,0.1,6.13,South,Mobile Payment
+ORD-1106,2024-04-25,2024-04-30,Same Day,CUST-254,Consumer,UK,Birmingham,Technology,Phones,8,984.72,0.1,151.55,East,Cash
+ORD-1107,2024-01-11,2024-01-13,Same Day,CUST-262,Corporate,UK,London,Technology,Laptops,6,1067.28,0.15,140.45,Central,Mobile Payment
+ORD-1108,2024-06-10,2024-06-13,Express,CUST-390,Corporate,Canada,Vancouver,Technology,Phones,10,117.55,0.0,19.0,West,Cash
+ORD-1109,2024-03-30,2024-04-02,Same Day,CUST-186,Corporate,USA,Miami,Technology,Laptops,9,1452.19,0.15,93.55,South,Cash
+ORD-1110,2024-05-10,2024-05-13,Standard,CUST-449,Corporate,USA,Miami,Office Supplies,Folders,4,46.98,0.1,3.64,West,Bank Transfer
+ORD-1111,2024-05-09,2024-05-14,Express,CUST-997,Home Office,USA,New York,Furniture,Chairs,3,1255.98,0.2,57.82,Europe,Mobile Payment
+ORD-1112,2024-04-22,2024-04-23,Same Day,CUST-391,Home Office,USA,Los Angeles,Office Supplies,Binders,8,628.07,0.05,145.54,West,Bank Transfer
+ORD-1113,2024-06-22,2024-06-27,Express,CUST-614,Home Office,Canada,Vancouver,Office Supplies,Pens,7,1476.97,0.15,255.97,West,Bank Transfer
+ORD-1114,2024-06-13,2024-06-17,Same Day,CUST-966,Home Office,UK,London,Furniture,Chairs,2,1313.69,0.2,248.93,Central,Card
+ORD-1115,2024-04-21,2024-04-22,Express,CUST-127,Corporate,USA,Chicago,Furniture,Tables,1,1420.69,0.05,287.94,South,Cash
+ORD-1116,2024-02-27,2024-02-28,Same Day,CUST-443,Consumer,USA,Houston,Office Supplies,Pens,3,491.65,0.0,107.1,East,Cash
+ORD-1117,2024-04-24,2024-04-29,Standard,CUST-955,Consumer,Canada,Calgary,Office Supplies,Folders,9,27.77,0.0,1.49,Europe,Mobile Payment
+ORD-1118,2024-02-01,2024-02-02,Standard,CUST-956,Corporate,USA,Chicago,Office Supplies,Pens,10,372.89,0.2,42.19,Europe,Card
+ORD-1119,2024-02-06,2024-02-09,Same Day,CUST-526,Consumer,UK,Birmingham,Technology,Laptops,2,655.27,0.2,63.2,Europe,Cash
+ORD-1120,2024-04-09,2024-04-13,Express,CUST-865,Consumer,USA,Miami,Technology,Phones,6,84.43,0.15,17.67,East,Cash
+ORD-1121,2024-02-04,2024-02-05,Standard,CUST-950,Home Office,USA,New York,Technology,Monitors,8,541.4,0.1,103.64,South,Bank Transfer
+ORD-1122,2024-01-10,2024-01-13,Express,CUST-417,Home Office,USA,New York,Technology,Accessories,7,318.35,0.05,68.7,Europe,Mobile Payment
+ORD-1123,2024-03-14,2024-03-17,Express,CUST-379,Consumer,Canada,Toronto,Technology,Laptops,6,1295.97,0.0,289.21,South,Mobile Payment
+ORD-1124,2024-02-17,2024-02-21,Same Day,CUST-373,Consumer,UK,Manchester,Furniture,Bookcases,7,1044.26,0.1,220.73,East,Mobile Payment
+ORD-1125,2024-03-23,2024-03-24,Same Day,CUST-834,Corporate,UK,London,Technology,Monitors,3,138.5,0.1,13.87,South,Cash
+ORD-1126,2024-06-06,2024-06-10,Same Day,CUST-515,Corporate,Canada,Toronto,Technology,Monitors,9,426.34,0.0,27.72,West,Card
+ORD-1127,2024-01-09,2024-01-11,Same Day,CUST-133,Home Office,USA,Miami,Technology,Accessories,3,119.51,0.1,13.17,South,Cash
+ORD-1128,2024-05-15,2024-05-18,Standard,CUST-126,Home Office,Canada,Vancouver,Office Supplies,Binders,3,609.09,0.1,54.78,South,Mobile Payment
+ORD-1129,2024-06-29,2024-07-03,Express,CUST-304,Consumer,UK,London,Furniture,Bookcases,3,337.56,0.2,28.93,East,Mobile Payment
+ORD-1130,2024-06-19,2024-06-22,Express,CUST-971,Consumer,USA,Houston,Office Supplies,Pens,3,1070.12,0.2,135.63,Central,Bank Transfer
+ORD-1131,2024-05-06,2024-05-07,Same Day,CUST-232,Home Office,USA,Los Angeles,Office Supplies,Binders,2,554.13,0.2,54.87,East,Cash
+ORD-1132,2024-05-14,2024-05-18,Express,CUST-757,Consumer,Canada,Calgary,Technology,Accessories,8,1158.36,0.2,60.0,South,Cash
+ORD-1133,2024-02-03,2024-02-07,Same Day,CUST-256,Corporate,USA,Miami,Technology,Laptops,3,764.24,0.0,165.29,West,Cash
+ORD-1134,2024-01-21,2024-01-24,Same Day,CUST-410,Home Office,UK,London,Furniture,Bookcases,9,310.53,0.2,26.06,East,Bank Transfer
+ORD-1135,2024-06-17,2024-06-22,Same Day,CUST-142,Consumer,UK,Birmingham,Office Supplies,Binders,2,1086.54,0.2,102.16,East,Cash
+ORD-1136,2024-06-07,2024-06-08,Express,CUST-594,Consumer,UK,London,Technology,Accessories,7,757.1,0.2,65.37,Central,Mobile Payment
+ORD-1137,2024-04-16,2024-04-20,Express,CUST-982,Home Office,USA,New York,Office Supplies,Folders,6,707.37,0.1,109.08,Central,Mobile Payment
+ORD-1138,2024-03-22,2024-03-24,Standard,CUST-199,Consumer,USA,Chicago,Technology,Phones,5,710.38,0.1,89.46,South,Mobile Payment
+ORD-1139,2024-02-18,2024-02-20,Express,CUST-609,Consumer,USA,Los Angeles,Furniture,Bookcases,2,757.43,0.2,86.87,South,Mobile Payment
+ORD-1140,2024-01-13,2024-01-14,Same Day,CUST-788,Corporate,USA,Los Angeles,Technology,Monitors,5,436.41,0.2,79.07,Europe,Card
+ORD-1141,2024-04-03,2024-04-07,Same Day,CUST-299,Corporate,USA,Houston,Office Supplies,Pens,9,561.59,0.15,28.75,Central,Card
+ORD-1142,2024-06-08,2024-06-13,Express,CUST-671,Corporate,Canada,Calgary,Furniture,Bookcases,3,195.84,0.0,25.22,West,Mobile Payment
+ORD-1143,2024-02-05,2024-02-08,Same Day,CUST-627,Consumer,UK,London,Office Supplies,Paper,6,1209.87,0.2,136.86,Europe,Cash
+ORD-1144,2024-05-31,2024-06-03,Same Day,CUST-676,Corporate,USA,Houston,Technology,Monitors,8,770.83,0.2,96.49,East,Cash
+ORD-1145,2024-05-29,2024-06-01,Express,CUST-771,Home Office,Canada,Calgary,Office Supplies,Folders,10,1199.2,0.0,203.12,West,Card
+ORD-1146,2024-02-07,2024-02-09,Express,CUST-421,Corporate,UK,Manchester,Office Supplies,Folders,3,66.72,0.0,5.88,South,Bank Transfer
+ORD-1147,2024-01-16,2024-01-18,Same Day,CUST-589,Home Office,Canada,Calgary,Technology,Accessories,7,787.65,0.2,72.47,Central,Bank Transfer
+ORD-1148,2024-06-22,2024-06-25,Express,CUST-671,Corporate,Canada,Calgary,Furniture,Bookcases,4,922.91,0.05,211.71,Central,Cash
+ORD-1149,2024-03-22,2024-03-26,Same Day,CUST-792,Home Office,UK,London,Technology,Accessories,7,536.23,0.1,51.91,South,Cash
+ORD-1150,2024-01-21,2024-01-24,Standard,CUST-306,Home Office,USA,Chicago,Office Supplies,Pens,5,1387.53,0.1,249.09,Europe,Cash
+ORD-1151,2024-03-03,2024-03-04,Standard,CUST-153,Consumer,USA,New York,Technology,Laptops,7,1011.35,0.2,76.97,Central,Mobile Payment
+ORD-1152,2024-04-14,2024-04-18,Express,CUST-428,Corporate,USA,Los Angeles,Office Supplies,Binders,1,726.62,0.05,138.87,East,Bank Transfer
+ORD-1153,2024-02-14,2024-02-18,Standard,CUST-956,Corporate,UK,Birmingham,Technology,Phones,8,1325.72,0.05,298.21,West,Cash
+ORD-1154,2024-03-26,2024-03-29,Standard,CUST-971,Home Office,USA,New York,Furniture,Chairs,8,692.44,0.2,85.79,Central,Bank Transfer
+ORD-1155,2024-06-14,2024-06-17,Express,CUST-681,Home Office,USA,Chicago,Office Supplies,Folders,4,1083.53,0.0,213.81,West,Mobile Payment
+ORD-1156,2024-04-12,2024-04-13,Standard,CUST-106,Corporate,Canada,Calgary,Furniture,Chairs,7,293.48,0.05,40.56,West,Mobile Payment
+ORD-1157,2024-03-07,2024-03-10,Express,CUST-414,Consumer,Canada,Vancouver,Furniture,Chairs,7,1045.3,0.0,191.87,Europe,Cash
+ORD-1158,2024-04-04,2024-04-09,Express,CUST-865,Home Office,UK,London,Technology,Monitors,6,346.86,0.05,47.99,South,Mobile Payment
+ORD-1159,2024-06-23,2024-06-28,Same Day,CUST-820,Corporate,UK,Birmingham,Office Supplies,Binders,2,1312.24,0.0,203.53,Europe,Card
+ORD-1160,2024-05-26,2024-05-31,Express,CUST-219,Home Office,USA,Miami,Technology,Laptops,4,241.78,0.1,48.07,Europe,Mobile Payment
+ORD-1161,2024-04-26,2024-04-28,Same Day,CUST-573,Home Office,USA,Miami,Furniture,Chairs,5,779.61,0.15,107.87,East,Mobile Payment
+ORD-1162,2024-05-28,2024-05-29,Same Day,CUST-161,Consumer,Canada,Toronto,Technology,Laptops,8,87.03,0.1,14.89,East,Cash
+ORD-1163,2024-04-05,2024-04-09,Same Day,CUST-777,Home Office,Canada,Toronto,Office Supplies,Folders,3,683.83,0.15,72.73,Central,Card
+ORD-1164,2024-02-27,2024-02-28,Same Day,CUST-657,Corporate,USA,Miami,Furniture,Tables,9,1139.15,0.1,146.2,South,Bank Transfer
+ORD-1165,2024-03-11,2024-03-13,Same Day,CUST-529,Home Office,USA,Houston,Furniture,Tables,1,1407.37,0.0,79.44,West,Bank Transfer
+ORD-1166,2024-04-24,2024-04-29,Standard,CUST-511,Corporate,USA,New York,Technology,Phones,4,1014.59,0.0,100.39,Europe,Bank Transfer
+ORD-1167,2024-02-29,2024-03-05,Express,CUST-342,Corporate,USA,Los Angeles,Technology,Monitors,3,491.98,0.2,80.49,Europe,Bank Transfer
+ORD-1168,2024-05-22,2024-05-27,Express,CUST-669,Corporate,Canada,Vancouver,Furniture,Chairs,1,1321.98,0.05,220.03,Central,Mobile Payment
+ORD-1169,2024-04-14,2024-04-16,Express,CUST-346,Consumer,UK,Manchester,Technology,Accessories,5,463.83,0.05,88.52,West,Mobile Payment
+ORD-1170,2024-05-22,2024-05-27,Express,CUST-762,Consumer,USA,Miami,Furniture,Sofas,8,218.46,0.05,20.96,Central,Card
+ORD-1171,2024-03-09,2024-03-13,Standard,CUST-292,Home Office,UK,Birmingham,Office Supplies,Paper,9,1017.03,0.2,47.12,West,Mobile Payment
+ORD-1172,2024-02-24,2024-02-26,Express,CUST-348,Home Office,USA,Chicago,Furniture,Chairs,10,1443.87,0.0,287.87,West,Mobile Payment
+ORD-1173,2024-04-07,2024-04-11,Express,CUST-625,Corporate,USA,Miami,Furniture,Bookcases,8,809.8,0.1,81.4,East,Mobile Payment
+ORD-1174,2024-04-15,2024-04-16,Standard,CUST-367,Home Office,Canada,Toronto,Furniture,Bookcases,10,852.54,0.05,160.57,Europe,Mobile Payment
+ORD-1175,2024-02-28,2024-03-03,Same Day,CUST-801,Corporate,Canada,Toronto,Office Supplies,Pens,5,863.29,0.05,122.9,South,Mobile Payment
+ORD-1176,2024-02-13,2024-02-15,Same Day,CUST-757,Consumer,Canada,Toronto,Technology,Monitors,9,1086.06,0.15,80.14,East,Card
+ORD-1177,2024-02-05,2024-02-07,Same Day,CUST-566,Corporate,UK,London,Office Supplies,Folders,1,120.59,0.05,5.94,Europe,Mobile Payment
+ORD-1178,2024-05-16,2024-05-21,Express,CUST-648,Corporate,UK,Manchester,Office Supplies,Paper,1,628.78,0.0,98.02,Europe,Mobile Payment
+ORD-1179,2024-03-02,2024-03-04,Express,CUST-914,Corporate,USA,New York,Office Supplies,Binders,2,937.28,0.1,179.71,Central,Mobile Payment
+ORD-1180,2024-03-17,2024-03-18,Express,CUST-486,Home Office,Canada,Calgary,Office Supplies,Binders,8,987.53,0.0,67.84,East,Card
+ORD-1181,2024-04-21,2024-04-24,Standard,CUST-335,Consumer,UK,London,Office Supplies,Folders,10,857.47,0.0,196.32,South,Cash
+ORD-1182,2024-05-19,2024-05-24,Express,CUST-116,Consumer,USA,New York,Technology,Monitors,10,994.0,0.05,222.62,West,Mobile Payment
+ORD-1183,2024-05-25,2024-05-29,Same Day,CUST-243,Home Office,USA,Chicago,Office Supplies,Binders,2,1022.01,0.2,95.13,Europe,Cash
+ORD-1184,2024-01-20,2024-01-23,Express,CUST-892,Corporate,USA,New York,Furniture,Tables,1,915.65,0.2,176.52,Central,Mobile Payment
+ORD-1185,2024-04-20,2024-04-22,Same Day,CUST-402,Consumer,Canada,Toronto,Furniture,Sofas,2,1025.95,0.15,58.55,East,Cash
+ORD-1186,2024-04-09,2024-04-12,Express,CUST-555,Corporate,USA,Houston,Technology,Laptops,5,553.84,0.0,28.27,East,Bank Transfer
+ORD-1187,2024-05-22,2024-05-27,Express,CUST-667,Consumer,USA,Los Angeles,Furniture,Sofas,10,778.41,0.0,43.01,Europe,Cash
+ORD-1188,2024-04-09,2024-04-10,Standard,CUST-685,Home Office,Canada,Toronto,Furniture,Sofas,3,1092.77,0.2,201.98,South,Bank Transfer
+ORD-1189,2024-05-06,2024-05-08,Express,CUST-595,Consumer,USA,Chicago,Furniture,Bookcases,6,113.64,0.15,10.16,Central,Bank Transfer
+ORD-1190,2024-04-27,2024-04-28,Express,CUST-961,Home Office,UK,Birmingham,Furniture,Tables,7,220.52,0.0,52.87,Central,Mobile Payment
+ORD-1191,2024-03-17,2024-03-20,Standard,CUST-507,Corporate,Canada,Vancouver,Technology,Laptops,5,912.75,0.05,126.43,South,Bank Transfer
+ORD-1192,2024-04-03,2024-04-04,Same Day,CUST-284,Home Office,Canada,Vancouver,Furniture,Sofas,9,1399.46,0.05,223.95,East,Mobile Payment
+ORD-1193,2024-06-26,2024-06-27,Standard,CUST-748,Corporate,UK,London,Furniture,Bookcases,4,1232.07,0.15,193.32,Central,Bank Transfer
+ORD-1194,2024-04-24,2024-04-29,Same Day,CUST-528,Home Office,UK,Manchester,Furniture,Chairs,1,729.27,0.15,97.24,Central,Card
+ORD-1195,2024-02-12,2024-02-17,Express,CUST-915,Corporate,USA,Los Angeles,Technology,Monitors,2,85.56,0.15,17.7,East,Card
+ORD-1196,2024-04-24,2024-04-27,Standard,CUST-453,Consumer,Canada,Toronto,Technology,Laptops,8,598.88,0.2,90.11,East,Cash
+ORD-1197,2024-03-30,2024-04-02,Express,CUST-587,Consumer,Canada,Toronto,Office Supplies,Binders,8,527.74,0.05,77.32,South,Cash
+ORD-1198,2024-01-06,2024-01-09,Same Day,CUST-349,Home Office,USA,Chicago,Office Supplies,Paper,3,979.0,0.05,219.48,Europe,Bank Transfer
+ORD-1199,2024-02-29,2024-03-04,Express,CUST-505,Consumer,Canada,Calgary,Furniture,Sofas,10,952.05,0.05,161.08,West,Mobile Payment
+ORD-1200,2024-06-29,2024-07-01,Same Day,CUST-291,Corporate,UK,Manchester,Furniture,Chairs,6,324.56,0.0,53.7,West,Mobile Payment
+ORD-1201,2024-05-15,2024-05-18,Standard,CUST-456,Corporate,USA,Chicago,Technology,Accessories,8,903.52,0.2,92.89,Europe,Bank Transfer
+ORD-1202,2024-06-21,2024-06-23,Standard,CUST-482,Home Office,UK,Birmingham,Furniture,Chairs,3,483.51,0.05,51.02,Europe,Mobile Payment
+ORD-1203,2024-04-18,2024-04-20,Same Day,CUST-277,Home Office,Canada,Calgary,Office Supplies,Folders,3,740.27,0.2,111.74,South,Cash
+ORD-1204,2024-06-07,2024-06-08,Standard,CUST-934,Corporate,USA,Los Angeles,Furniture,Sofas,9,1300.97,0.0,191.14,Europe,Mobile Payment
+ORD-1205,2024-04-23,2024-04-27,Standard,CUST-399,Consumer,Canada,Calgary,Furniture,Sofas,5,267.54,0.2,12.02,West,Cash
+ORD-1206,2024-05-20,2024-05-25,Same Day,CUST-943,Corporate,USA,Houston,Technology,Accessories,9,187.55,0.0,19.43,East,Mobile Payment
+ORD-1207,2024-06-16,2024-06-18,Express,CUST-982,Consumer,UK,London,Furniture,Chairs,8,460.61,0.0,64.46,East,Bank Transfer
+ORD-1208,2024-06-05,2024-06-09,Standard,CUST-924,Consumer,USA,Miami,Technology,Monitors,10,265.65,0.05,52.23,Central,Cash
+ORD-1209,2024-06-29,2024-07-02,Same Day,CUST-795,Consumer,UK,Birmingham,Office Supplies,Pens,3,448.21,0.1,97.01,South,Card
+ORD-1210,2024-03-04,2024-03-06,Same Day,CUST-502,Corporate,Canada,Calgary,Office Supplies,Binders,3,1072.86,0.05,206.18,Europe,Cash
+ORD-1211,2024-01-20,2024-01-21,Express,CUST-565,Corporate,UK,Manchester,Furniture,Sofas,6,616.22,0.1,104.79,Europe,Card
+ORD-1212,2024-06-11,2024-06-14,Express,CUST-944,Consumer,UK,London,Technology,Accessories,8,1278.16,0.2,132.46,Central,Cash
+ORD-1213,2024-05-24,2024-05-28,Same Day,CUST-902,Corporate,Canada,Vancouver,Technology,Laptops,1,1186.69,0.0,70.24,East,Bank Transfer
+ORD-1214,2024-02-21,2024-02-23,Express,CUST-195,Home Office,Canada,Vancouver,Office Supplies,Folders,6,1325.58,0.1,97.58,Central,Card
+ORD-1215,2024-01-14,2024-01-18,Standard,CUST-820,Consumer,Canada,Calgary,Technology,Laptops,1,945.89,0.05,122.07,West,Mobile Payment
+ORD-1216,2024-05-12,2024-05-16,Express,CUST-810,Consumer,USA,Los Angeles,Technology,Laptops,8,33.74,0.1,6.48,East,Bank Transfer
+ORD-1217,2024-01-27,2024-01-30,Standard,CUST-756,Home Office,Canada,Toronto,Technology,Phones,3,563.99,0.1,39.3,East,Card
+ORD-1218,2024-03-30,2024-04-01,Same Day,CUST-803,Corporate,UK,Birmingham,Office Supplies,Folders,4,949.56,0.05,211.07,East,Card
+ORD-1219,2024-03-30,2024-04-03,Same Day,CUST-186,Consumer,USA,New York,Technology,Accessories,9,485.47,0.05,45.92,Europe,Cash
+ORD-1220,2024-02-22,2024-02-27,Express,CUST-761,Consumer,UK,London,Technology,Monitors,4,918.25,0.05,174.09,South,Mobile Payment
+ORD-1221,2024-05-15,2024-05-16,Same Day,CUST-530,Corporate,USA,Los Angeles,Furniture,Chairs,9,1480.59,0.1,101.8,West,Mobile Payment
+ORD-1222,2024-01-04,2024-01-07,Express,CUST-618,Corporate,USA,New York,Technology,Phones,9,339.3,0.0,81.34,South,Mobile Payment
+ORD-1223,2024-03-12,2024-03-13,Standard,CUST-649,Corporate,UK,Manchester,Office Supplies,Binders,7,478.66,0.2,89.68,Europe,Card
+ORD-1224,2024-01-15,2024-01-17,Same Day,CUST-723,Consumer,Canada,Calgary,Furniture,Tables,5,147.59,0.15,9.18,West,Card
+ORD-1225,2024-02-11,2024-02-15,Same Day,CUST-365,Consumer,USA,Los Angeles,Technology,Phones,6,1430.46,0.2,175.6,West,Cash
+ORD-1226,2024-04-19,2024-04-22,Same Day,CUST-742,Consumer,UK,London,Office Supplies,Pens,8,795.3,0.1,137.76,South,Cash
+ORD-1227,2024-04-04,2024-04-06,Same Day,CUST-840,Consumer,USA,Houston,Technology,Laptops,4,397.57,0.0,90.99,Europe,Card
+ORD-1228,2024-04-30,2024-05-03,Standard,CUST-666,Home Office,USA,New York,Office Supplies,Paper,7,586.81,0.05,47.83,West,Cash
+ORD-1229,2024-03-10,2024-03-11,Standard,CUST-283,Consumer,USA,Houston,Technology,Monitors,9,865.87,0.0,130.23,East,Mobile Payment
+ORD-1230,2024-03-24,2024-03-25,Express,CUST-677,Corporate,USA,Houston,Furniture,Bookcases,10,838.58,0.0,103.8,West,Mobile Payment
+ORD-1231,2024-05-19,2024-05-21,Same Day,CUST-454,Home Office,Canada,Calgary,Furniture,Tables,1,242.84,0.15,11.31,Central,Card
+ORD-1232,2024-01-27,2024-01-29,Standard,CUST-245,Home Office,UK,Manchester,Technology,Monitors,5,804.13,0.05,102.34,East,Card
+ORD-1233,2024-04-27,2024-04-28,Express,CUST-176,Home Office,USA,Miami,Furniture,Bookcases,10,879.54,0.2,53.97,East,Mobile Payment
+ORD-1234,2024-03-07,2024-03-10,Same Day,CUST-434,Corporate,UK,London,Office Supplies,Pens,8,1390.54,0.15,224.74,Central,Bank Transfer
+ORD-1235,2024-02-09,2024-02-10,Standard,CUST-648,Corporate,USA,Los Angeles,Office Supplies,Paper,4,263.27,0.15,25.24,South,Cash
+ORD-1236,2024-02-10,2024-02-13,Express,CUST-251,Consumer,Canada,Vancouver,Office Supplies,Paper,4,1243.05,0.2,57.74,Central,Mobile Payment
+ORD-1237,2024-03-07,2024-03-09,Same Day,CUST-866,Home Office,UK,London,Technology,Monitors,4,66.0,0.15,12.39,East,Mobile Payment
+ORD-1238,2024-01-16,2024-01-18,Same Day,CUST-760,Consumer,USA,Los Angeles,Office Supplies,Paper,10,213.46,0.15,22.58,Europe,Cash
+ORD-1239,2024-06-14,2024-06-18,Express,CUST-225,Consumer,USA,New York,Office Supplies,Binders,8,1217.76,0.0,281.32,East,Bank Transfer
+ORD-1240,2024-05-07,2024-05-08,Standard,CUST-291,Corporate,UK,Manchester,Technology,Accessories,5,586.44,0.15,42.15,South,Bank Transfer
+ORD-1241,2024-06-14,2024-06-17,Standard,CUST-386,Corporate,USA,Miami,Technology,Laptops,3,758.36,0.2,88.46,South,Bank Transfer
+ORD-1242,2024-04-07,2024-04-10,Same Day,CUST-614,Corporate,UK,Birmingham,Office Supplies,Paper,7,729.93,0.15,73.71,Central,Bank Transfer
+ORD-1243,2024-01-08,2024-01-11,Same Day,CUST-338,Consumer,USA,Chicago,Technology,Laptops,2,106.72,0.15,14.14,West,Bank Transfer
+ORD-1244,2024-02-26,2024-03-02,Standard,CUST-280,Consumer,Canada,Calgary,Technology,Phones,10,1272.83,0.15,130.87,Central,Cash
+ORD-1245,2024-05-25,2024-05-30,Express,CUST-655,Corporate,UK,London,Technology,Monitors,3,230.31,0.05,47.55,South,Card
+ORD-1246,2024-01-06,2024-01-11,Standard,CUST-925,Consumer,USA,New York,Office Supplies,Binders,6,727.42,0.1,152.92,West,Cash
+ORD-1247,2024-01-29,2024-02-03,Same Day,CUST-505,Home Office,USA,New York,Office Supplies,Binders,2,1293.79,0.0,161.36,Central,Cash
+ORD-1248,2024-06-12,2024-06-16,Same Day,CUST-810,Home Office,Canada,Toronto,Office Supplies,Folders,6,980.79,0.05,178.37,West,Bank Transfer
+ORD-1249,2024-02-02,2024-02-04,Same Day,CUST-133,Consumer,Canada,Vancouver,Technology,Monitors,10,1098.67,0.2,112.79,Central,Bank Transfer
+ORD-1250,2024-02-06,2024-02-09,Express,CUST-271,Home Office,UK,Birmingham,Office Supplies,Folders,2,1123.11,0.05,127.35,Central,Mobile Payment
+ORD-1251,2024-06-26,2024-06-27,Standard,CUST-495,Corporate,USA,Chicago,Office Supplies,Binders,7,538.71,0.0,104.55,West,Mobile Payment
+ORD-1252,2024-01-26,2024-01-30,Same Day,CUST-330,Consumer,Canada,Vancouver,Furniture,Sofas,8,1187.32,0.2,171.16,East,Card
+ORD-1253,2024-01-27,2024-01-28,Standard,CUST-660,Consumer,Canada,Toronto,Furniture,Bookcases,6,525.88,0.15,36.73,Europe,Mobile Payment
+ORD-1254,2024-06-04,2024-06-08,Standard,CUST-519,Home Office,UK,London,Furniture,Tables,9,252.51,0.0,29.35,Europe,Cash
+ORD-1255,2024-01-25,2024-01-26,Standard,CUST-155,Corporate,UK,Manchester,Furniture,Tables,1,601.5,0.2,104.89,South,Card
+ORD-1256,2024-02-21,2024-02-22,Standard,CUST-584,Consumer,Canada,Calgary,Technology,Accessories,5,58.09,0.05,9.8,South,Mobile Payment
+ORD-1257,2024-06-13,2024-06-18,Express,CUST-291,Corporate,Canada,Calgary,Furniture,Chairs,1,593.54,0.1,121.31,Central,Mobile Payment
+ORD-1258,2024-05-24,2024-05-25,Express,CUST-927,Home Office,Canada,Vancouver,Office Supplies,Pens,7,243.67,0.0,16.36,Europe,Bank Transfer
+ORD-1259,2024-05-17,2024-05-21,Standard,CUST-504,Home Office,UK,London,Furniture,Sofas,1,867.62,0.05,119.72,Europe,Bank Transfer
+ORD-1260,2024-02-24,2024-02-26,Same Day,CUST-545,Consumer,USA,Houston,Office Supplies,Binders,3,206.76,0.15,11.54,Europe,Cash
+ORD-1261,2024-04-09,2024-04-14,Same Day,CUST-569,Consumer,Canada,Calgary,Office Supplies,Paper,10,608.09,0.1,121.13,Europe,Mobile Payment
+ORD-1262,2024-05-25,2024-05-30,Same Day,CUST-898,Consumer,USA,Houston,Office Supplies,Binders,5,882.36,0.0,207.34,Europe,Cash
+ORD-1263,2024-05-26,2024-05-31,Standard,CUST-733,Home Office,Canada,Vancouver,Furniture,Sofas,7,720.11,0.05,71.89,East,Mobile Payment
+ORD-1264,2024-05-01,2024-05-04,Express,CUST-418,Corporate,Canada,Calgary,Office Supplies,Paper,8,1347.61,0.0,158.44,East,Bank Transfer
+ORD-1265,2024-03-23,2024-03-26,Standard,CUST-552,Consumer,USA,Chicago,Technology,Accessories,7,1098.62,0.2,157.42,South,Cash
+ORD-1266,2024-03-20,2024-03-25,Standard,CUST-277,Consumer,USA,Miami,Office Supplies,Paper,4,617.01,0.2,111.49,East,Bank Transfer
+ORD-1267,2024-06-29,2024-07-01,Same Day,CUST-226,Home Office,USA,Houston,Office Supplies,Pens,1,425.49,0.15,54.62,West,Cash
+ORD-1268,2024-05-01,2024-05-06,Express,CUST-866,Home Office,Canada,Calgary,Furniture,Tables,2,835.97,0.1,62.22,Central,Card
+ORD-1269,2024-02-26,2024-02-28,Same Day,CUST-120,Home Office,Canada,Toronto,Office Supplies,Binders,1,1022.99,0.1,166.02,South,Bank Transfer
+ORD-1270,2024-02-27,2024-03-01,Same Day,CUST-758,Corporate,UK,London,Technology,Phones,7,920.35,0.1,159.49,South,Cash
+ORD-1271,2024-03-18,2024-03-23,Standard,CUST-623,Home Office,Canada,Vancouver,Office Supplies,Folders,6,1239.98,0.15,175.91,Europe,Cash
+ORD-1272,2024-01-17,2024-01-20,Express,CUST-771,Home Office,Canada,Calgary,Office Supplies,Folders,5,1482.77,0.1,296.66,West,Bank Transfer
+ORD-1273,2024-06-18,2024-06-21,Express,CUST-365,Corporate,UK,London,Office Supplies,Folders,7,1027.52,0.0,186.06,South,Card
+ORD-1274,2024-03-28,2024-03-30,Same Day,CUST-467,Home Office,UK,Birmingham,Technology,Laptops,5,1035.75,0.15,203.64,West,Bank Transfer
+ORD-1275,2024-03-07,2024-03-12,Express,CUST-770,Consumer,Canada,Toronto,Furniture,Tables,4,1149.12,0.05,261.33,Central,Bank Transfer
+ORD-1276,2024-04-05,2024-04-08,Express,CUST-154,Home Office,UK,Manchester,Furniture,Bookcases,10,886.64,0.15,165.98,Europe,Card
+ORD-1277,2024-06-23,2024-06-27,Standard,CUST-240,Consumer,Canada,Toronto,Technology,Phones,6,804.16,0.15,41.57,South,Mobile Payment
+ORD-1278,2024-01-21,2024-01-25,Standard,CUST-104,Corporate,USA,Chicago,Technology,Laptops,5,512.29,0.05,54.84,West,Bank Transfer
+ORD-1279,2024-02-03,2024-02-08,Express,CUST-492,Consumer,UK,London,Furniture,Chairs,1,661.89,0.15,73.52,Europe,Bank Transfer
+ORD-1280,2024-05-15,2024-05-17,Standard,CUST-331,Home Office,UK,Manchester,Office Supplies,Pens,6,46.52,0.0,8.16,Central,Bank Transfer
+ORD-1281,2024-02-12,2024-02-13,Express,CUST-845,Home Office,USA,Houston,Technology,Monitors,10,1239.29,0.1,267.34,Europe,Cash
+ORD-1282,2024-05-05,2024-05-08,Express,CUST-119,Consumer,Canada,Calgary,Office Supplies,Pens,4,1130.17,0.05,257.27,West,Bank Transfer
+ORD-1283,2024-02-01,2024-02-04,Same Day,CUST-361,Home Office,UK,London,Technology,Laptops,10,1072.44,0.0,134.1,East,Card
+ORD-1284,2024-01-13,2024-01-14,Express,CUST-585,Home Office,UK,London,Technology,Phones,3,636.83,0.15,40.45,West,Card
+ORD-1285,2024-06-18,2024-06-23,Express,CUST-950,Consumer,Canada,Vancouver,Technology,Phones,9,419.57,0.2,63.82,Europe,Card
+ORD-1286,2024-02-20,2024-02-25,Standard,CUST-466,Home Office,Canada,Toronto,Office Supplies,Folders,7,315.63,0.1,61.44,Central,Bank Transfer
+ORD-1287,2024-06-25,2024-06-29,Standard,CUST-213,Home Office,USA,Miami,Furniture,Tables,8,509.29,0.0,26.76,West,Card
+ORD-1288,2024-03-06,2024-03-08,Standard,CUST-202,Consumer,UK,London,Technology,Phones,1,695.99,0.1,64.41,Central,Cash
+ORD-1289,2024-01-25,2024-01-26,Standard,CUST-436,Corporate,UK,Manchester,Furniture,Chairs,8,34.32,0.05,5.96,Europe,Cash
+ORD-1290,2024-02-16,2024-02-17,Express,CUST-806,Corporate,UK,London,Furniture,Bookcases,7,613.15,0.15,54.39,West,Card
+ORD-1291,2024-04-16,2024-04-21,Standard,CUST-725,Corporate,USA,New York,Office Supplies,Paper,6,734.36,0.2,109.08,Europe,Card
+ORD-1292,2024-05-04,2024-05-05,Express,CUST-770,Corporate,UK,Birmingham,Office Supplies,Folders,1,1333.64,0.15,67.1,Europe,Bank Transfer
+ORD-1293,2024-04-20,2024-04-22,Same Day,CUST-727,Consumer,UK,Manchester,Technology,Phones,1,733.26,0.15,49.69,West,Mobile Payment
+ORD-1294,2024-03-23,2024-03-25,Standard,CUST-663,Home Office,Canada,Toronto,Office Supplies,Folders,7,509.72,0.1,27.56,South,Bank Transfer
+ORD-1295,2024-01-23,2024-01-27,Same Day,CUST-769,Consumer,USA,Houston,Furniture,Sofas,2,681.66,0.0,167.78,South,Mobile Payment
+ORD-1296,2024-01-24,2024-01-29,Same Day,CUST-311,Home Office,USA,Miami,Technology,Phones,8,1445.49,0.1,296.64,Central,Cash
+ORD-1297,2024-05-23,2024-05-28,Standard,CUST-199,Home Office,USA,Los Angeles,Furniture,Bookcases,4,907.93,0.1,157.86,East,Cash
+ORD-1298,2024-06-28,2024-06-29,Same Day,CUST-860,Home Office,Canada,Calgary,Furniture,Bookcases,7,87.75,0.05,12.38,East,Cash
+ORD-1299,2024-04-10,2024-04-12,Standard,CUST-875,Corporate,UK,London,Office Supplies,Paper,1,696.43,0.05,127.93,Europe,Card
+ORD-1300,2024-05-07,2024-05-08,Express,CUST-958,Home Office,Canada,Vancouver,Technology,Laptops,8,804.94,0.0,129.31,Europe,Bank Transfer
+ORD-1301,2024-01-27,2024-01-31,Same Day,CUST-493,Corporate,UK,Birmingham,Office Supplies,Binders,10,993.13,0.2,179.99,West,Cash
+ORD-1302,2024-02-04,2024-02-06,Same Day,CUST-660,Corporate,Canada,Vancouver,Furniture,Sofas,9,630.86,0.2,55.41,West,Bank Transfer
+ORD-1303,2024-06-24,2024-06-27,Same Day,CUST-282,Home Office,USA,Miami,Technology,Monitors,9,1383.36,0.05,323.64,Central,Card
+ORD-1304,2024-06-21,2024-06-26,Same Day,CUST-209,Consumer,Canada,Calgary,Furniture,Sofas,7,443.17,0.15,79.73,West,Card
+ORD-1305,2024-02-11,2024-02-14,Same Day,CUST-903,Corporate,UK,London,Office Supplies,Pens,4,1031.42,0.05,213.49,Europe,Card
+ORD-1306,2024-06-14,2024-06-19,Same Day,CUST-394,Home Office,Canada,Vancouver,Office Supplies,Binders,1,595.55,0.2,98.56,South,Mobile Payment
+ORD-1307,2024-01-04,2024-01-07,Same Day,CUST-821,Home Office,Canada,Calgary,Furniture,Chairs,6,320.57,0.15,58.86,Europe,Bank Transfer
+ORD-1308,2024-02-15,2024-02-16,Standard,CUST-486,Consumer,UK,London,Furniture,Sofas,7,296.73,0.05,55.54,Central,Cash
+ORD-1309,2024-01-02,2024-01-05,Express,CUST-711,Consumer,USA,Los Angeles,Technology,Monitors,10,710.17,0.05,39.12,Central,Mobile Payment
+ORD-1310,2024-03-22,2024-03-27,Same Day,CUST-263,Corporate,UK,Birmingham,Furniture,Chairs,9,345.54,0.05,50.59,Europe,Mobile Payment
+ORD-1311,2024-06-18,2024-06-21,Same Day,CUST-643,Corporate,USA,Chicago,Office Supplies,Binders,9,509.98,0.1,43.0,East,Card
+ORD-1312,2024-06-13,2024-06-18,Same Day,CUST-428,Corporate,UK,Manchester,Furniture,Tables,2,1379.54,0.05,316.87,South,Cash
+ORD-1313,2024-05-12,2024-05-15,Standard,CUST-403,Home Office,UK,Birmingham,Furniture,Chairs,4,781.18,0.2,86.94,Central,Card
+ORD-1314,2024-06-09,2024-06-10,Express,CUST-955,Consumer,USA,Los Angeles,Technology,Phones,4,331.96,0.05,70.32,Europe,Mobile Payment
+ORD-1315,2024-01-07,2024-01-11,Standard,CUST-282,Corporate,UK,London,Technology,Laptops,9,1080.97,0.0,72.97,East,Bank Transfer
+ORD-1316,2024-06-10,2024-06-14,Standard,CUST-647,Consumer,Canada,Vancouver,Furniture,Sofas,10,660.88,0.0,84.53,East,Card
+ORD-1317,2024-03-15,2024-03-18,Express,CUST-490,Corporate,UK,London,Furniture,Chairs,1,917.72,0.1,167.71,South,Bank Transfer
+ORD-1318,2024-05-19,2024-05-22,Same Day,CUST-763,Corporate,UK,London,Office Supplies,Folders,1,1441.0,0.05,150.05,Europe,Bank Transfer
+ORD-1319,2024-05-17,2024-05-22,Same Day,CUST-843,Corporate,USA,New York,Office Supplies,Folders,4,1421.53,0.1,117.72,South,Bank Transfer
+ORD-1320,2024-02-19,2024-02-20,Same Day,CUST-572,Home Office,USA,Los Angeles,Office Supplies,Pens,9,288.41,0.2,50.86,East,Cash
+ORD-1321,2024-02-20,2024-02-25,Same Day,CUST-771,Consumer,UK,London,Furniture,Chairs,2,741.04,0.1,80.98,Central,Card
+ORD-1322,2024-03-25,2024-03-30,Same Day,CUST-473,Corporate,USA,Chicago,Furniture,Sofas,7,995.94,0.2,64.12,West,Card
+ORD-1323,2024-03-11,2024-03-14,Express,CUST-556,Corporate,Canada,Toronto,Office Supplies,Folders,5,218.77,0.1,44.41,South,Card
+ORD-1324,2024-02-05,2024-02-10,Standard,CUST-969,Home Office,USA,Miami,Office Supplies,Pens,1,310.72,0.0,60.74,Europe,Mobile Payment
+ORD-1325,2024-05-19,2024-05-24,Standard,CUST-890,Home Office,UK,London,Office Supplies,Pens,5,718.71,0.05,84.09,West,Mobile Payment
+ORD-1326,2024-04-03,2024-04-08,Same Day,CUST-800,Consumer,UK,Birmingham,Office Supplies,Folders,9,35.68,0.05,7.44,West,Mobile Payment
+ORD-1327,2024-05-03,2024-05-06,Express,CUST-478,Consumer,USA,Los Angeles,Technology,Laptops,1,79.82,0.15,6.54,West,Cash
+ORD-1328,2024-01-11,2024-01-14,Express,CUST-954,Home Office,Canada,Vancouver,Furniture,Chairs,5,172.77,0.2,24.42,Europe,Bank Transfer
+ORD-1329,2024-05-30,2024-05-31,Standard,CUST-628,Corporate,Canada,Calgary,Furniture,Bookcases,6,784.66,0.15,163.1,Central,Mobile Payment
+ORD-1330,2024-04-22,2024-04-24,Standard,CUST-253,Consumer,Canada,Calgary,Office Supplies,Binders,3,360.39,0.2,51.52,Central,Card
+ORD-1331,2024-01-30,2024-02-03,Standard,CUST-762,Corporate,UK,London,Furniture,Bookcases,1,1019.34,0.15,79.83,West,Card
+ORD-1332,2024-02-04,2024-02-09,Standard,CUST-364,Consumer,USA,Miami,Technology,Laptops,9,78.0,0.2,4.95,South,Card
+ORD-1333,2024-01-22,2024-01-24,Standard,CUST-324,Corporate,UK,Birmingham,Technology,Monitors,10,684.82,0.15,130.08,West,Bank Transfer
+ORD-1334,2024-02-12,2024-02-15,Standard,CUST-487,Corporate,UK,Birmingham,Technology,Monitors,3,1385.08,0.2,186.29,East,Card
+ORD-1335,2024-02-08,2024-02-13,Same Day,CUST-139,Home Office,USA,Miami,Technology,Accessories,9,162.52,0.15,31.82,East,Card
+ORD-1336,2024-06-22,2024-06-26,Same Day,CUST-642,Corporate,Canada,Calgary,Office Supplies,Paper,4,792.63,0.1,160.48,South,Mobile Payment
+ORD-1337,2024-04-18,2024-04-20,Standard,CUST-390,Home Office,Canada,Calgary,Technology,Phones,9,396.69,0.05,87.44,South,Cash
+ORD-1338,2024-05-27,2024-06-01,Standard,CUST-804,Corporate,USA,New York,Technology,Phones,7,194.39,0.0,24.3,Central,Card
+ORD-1339,2024-03-07,2024-03-12,Same Day,CUST-506,Consumer,USA,Houston,Technology,Monitors,7,646.87,0.1,100.35,Europe,Mobile Payment
+ORD-1340,2024-03-05,2024-03-08,Same Day,CUST-221,Home Office,USA,Chicago,Technology,Accessories,4,874.92,0.15,146.62,South,Bank Transfer
+ORD-1341,2024-03-27,2024-04-01,Same Day,CUST-105,Consumer,USA,Los Angeles,Technology,Accessories,3,928.76,0.0,76.3,South,Mobile Payment
+ORD-1342,2024-04-04,2024-04-05,Express,CUST-728,Home Office,USA,New York,Furniture,Tables,9,921.36,0.15,184.93,Central,Card
+ORD-1343,2024-02-21,2024-02-26,Same Day,CUST-628,Home Office,USA,Houston,Furniture,Chairs,4,443.29,0.0,91.67,Europe,Bank Transfer
+ORD-1344,2024-06-16,2024-06-17,Express,CUST-461,Home Office,UK,London,Furniture,Tables,7,1463.96,0.0,365.06,South,Bank Transfer
+ORD-1345,2024-01-24,2024-01-29,Express,CUST-455,Corporate,UK,London,Technology,Phones,4,441.05,0.2,82.21,Europe,Bank Transfer
+ORD-1346,2024-03-07,2024-03-09,Same Day,CUST-401,Corporate,Canada,Vancouver,Technology,Phones,2,622.56,0.0,100.68,Europe,Cash
+ORD-1347,2024-04-06,2024-04-11,Express,CUST-797,Corporate,UK,Birmingham,Furniture,Sofas,10,735.77,0.05,140.84,East,Mobile Payment
+ORD-1348,2024-06-11,2024-06-13,Express,CUST-461,Home Office,USA,Chicago,Office Supplies,Folders,9,1021.83,0.05,203.89,East,Cash
+ORD-1349,2024-06-21,2024-06-24,Express,CUST-323,Home Office,USA,Chicago,Office Supplies,Folders,5,132.52,0.05,18.29,West,Bank Transfer
+ORD-1350,2024-03-02,2024-03-05,Same Day,CUST-464,Consumer,Canada,Calgary,Office Supplies,Binders,2,326.03,0.05,67.21,East,Card
+ORD-1351,2024-05-18,2024-05-19,Express,CUST-688,Corporate,UK,Birmingham,Furniture,Chairs,8,1275.06,0.1,199.83,West,Cash
+ORD-1352,2024-01-14,2024-01-19,Standard,CUST-614,Corporate,Canada,Toronto,Technology,Laptops,7,1202.92,0.15,243.28,West,Mobile Payment
+ORD-1353,2024-06-25,2024-06-26,Standard,CUST-433,Corporate,USA,Miami,Furniture,Bookcases,10,37.49,0.05,4.48,Central,Bank Transfer
+ORD-1354,2024-04-30,2024-05-05,Standard,CUST-529,Home Office,UK,Manchester,Office Supplies,Pens,6,527.78,0.05,75.09,Central,Mobile Payment
+ORD-1355,2024-05-27,2024-05-29,Same Day,CUST-542,Corporate,Canada,Vancouver,Office Supplies,Binders,4,1225.0,0.1,232.43,West,Bank Transfer
+ORD-1356,2024-05-07,2024-05-09,Express,CUST-904,Corporate,Canada,Toronto,Office Supplies,Folders,5,1493.43,0.2,187.33,Central,Card
+ORD-1357,2024-01-16,2024-01-18,Standard,CUST-560,Home Office,Canada,Toronto,Technology,Laptops,6,1224.45,0.15,226.68,Central,Cash
+ORD-1358,2024-03-29,2024-03-30,Same Day,CUST-303,Home Office,Canada,Calgary,Technology,Monitors,10,629.41,0.1,126.59,Europe,Bank Transfer
+ORD-1359,2024-04-24,2024-04-25,Standard,CUST-989,Consumer,Canada,Vancouver,Furniture,Sofas,6,583.99,0.1,75.03,South,Mobile Payment
+ORD-1360,2024-02-28,2024-03-02,Same Day,CUST-760,Corporate,USA,New York,Office Supplies,Pens,5,488.98,0.1,84.53,South,Cash
+ORD-1361,2024-04-15,2024-04-17,Standard,CUST-777,Corporate,UK,Birmingham,Technology,Accessories,2,292.15,0.0,21.91,West,Bank Transfer
+ORD-1362,2024-05-01,2024-05-06,Standard,CUST-206,Corporate,Canada,Toronto,Office Supplies,Paper,10,99.66,0.15,13.11,West,Card
+ORD-1363,2024-03-04,2024-03-07,Standard,CUST-129,Consumer,UK,Manchester,Furniture,Tables,6,675.88,0.05,48.96,Central,Mobile Payment
+ORD-1364,2024-02-04,2024-02-09,Same Day,CUST-751,Home Office,Canada,Calgary,Furniture,Sofas,7,282.01,0.2,31.88,Europe,Cash
+ORD-1365,2024-01-23,2024-01-27,Express,CUST-110,Consumer,Canada,Vancouver,Technology,Laptops,9,475.64,0.15,41.22,West,Cash
+ORD-1366,2024-06-25,2024-06-29,Express,CUST-917,Corporate,Canada,Vancouver,Technology,Phones,10,1421.5,0.15,132.82,West,Card
+ORD-1367,2024-05-23,2024-05-27,Same Day,CUST-499,Corporate,UK,Manchester,Office Supplies,Folders,4,604.23,0.05,110.78,Central,Card
+ORD-1368,2024-03-13,2024-03-18,Standard,CUST-286,Consumer,Canada,Calgary,Office Supplies,Pens,5,1217.04,0.15,90.62,East,Mobile Payment
+ORD-1369,2024-02-18,2024-02-21,Standard,CUST-290,Consumer,UK,Manchester,Furniture,Sofas,5,48.71,0.0,11.88,Central,Bank Transfer
+ORD-1370,2024-02-29,2024-03-01,Express,CUST-419,Corporate,UK,Manchester,Technology,Phones,6,243.01,0.15,19.3,South,Card
+ORD-1371,2024-03-09,2024-03-13,Express,CUST-936,Corporate,Canada,Toronto,Office Supplies,Paper,1,125.65,0.15,9.22,East,Bank Transfer
+ORD-1372,2024-02-20,2024-02-24,Standard,CUST-584,Corporate,Canada,Vancouver,Office Supplies,Paper,5,1108.28,0.0,170.93,Central,Bank Transfer
+ORD-1373,2024-03-05,2024-03-09,Standard,CUST-984,Home Office,UK,Birmingham,Office Supplies,Paper,4,965.01,0.05,111.92,East,Bank Transfer
+ORD-1374,2024-02-12,2024-02-15,Standard,CUST-143,Home Office,UK,Manchester,Furniture,Chairs,8,885.35,0.15,156.4,Europe,Bank Transfer
+ORD-1375,2024-05-07,2024-05-08,Same Day,CUST-161,Consumer,Canada,Toronto,Office Supplies,Binders,6,1035.2,0.1,220.03,West,Card
+ORD-1376,2024-05-22,2024-05-25,Standard,CUST-805,Corporate,USA,Houston,Office Supplies,Pens,6,1212.18,0.15,202.61,West,Cash
+ORD-1377,2024-05-23,2024-05-26,Standard,CUST-656,Corporate,USA,Houston,Technology,Accessories,6,823.25,0.15,61.55,South,Cash
+ORD-1378,2024-05-15,2024-05-17,Express,CUST-100,Home Office,UK,Birmingham,Office Supplies,Paper,9,685.09,0.1,97.62,South,Bank Transfer
+ORD-1379,2024-03-23,2024-03-24,Standard,CUST-636,Home Office,USA,Miami,Furniture,Tables,8,994.27,0.2,170.07,Europe,Bank Transfer
+ORD-1380,2024-06-13,2024-06-16,Standard,CUST-955,Consumer,UK,Manchester,Furniture,Sofas,3,183.49,0.2,26.68,East,Bank Transfer
+ORD-1381,2024-01-09,2024-01-14,Same Day,CUST-738,Home Office,USA,Houston,Office Supplies,Paper,10,969.79,0.15,149.68,Central,Card
+ORD-1382,2024-01-04,2024-01-06,Same Day,CUST-162,Corporate,Canada,Toronto,Technology,Phones,9,990.51,0.0,142.25,South,Cash
+ORD-1383,2024-05-15,2024-05-16,Standard,CUST-631,Consumer,UK,London,Technology,Monitors,2,1106.76,0.1,65.33,West,Mobile Payment
+ORD-1384,2024-05-25,2024-05-27,Standard,CUST-884,Home Office,USA,Los Angeles,Technology,Laptops,10,846.47,0.2,90.09,Central,Mobile Payment
+ORD-1385,2024-02-12,2024-02-14,Standard,CUST-646,Home Office,UK,Birmingham,Furniture,Chairs,8,833.95,0.2,78.39,Central,Cash
+ORD-1386,2024-06-11,2024-06-15,Same Day,CUST-658,Consumer,UK,Manchester,Furniture,Sofas,7,1242.71,0.1,192.02,Europe,Cash
+ORD-1387,2024-01-01,2024-01-02,Standard,CUST-409,Consumer,Canada,Vancouver,Furniture,Sofas,5,1474.78,0.2,62.84,West,Bank Transfer
+ORD-1388,2024-05-21,2024-05-26,Standard,CUST-571,Corporate,Canada,Toronto,Technology,Monitors,3,843.36,0.2,54.61,West,Cash
+ORD-1389,2024-03-06,2024-03-09,Standard,CUST-851,Consumer,Canada,Calgary,Office Supplies,Binders,6,156.02,0.15,21.72,South,Bank Transfer
+ORD-1390,2024-06-01,2024-06-04,Standard,CUST-889,Corporate,Canada,Calgary,Technology,Phones,6,75.31,0.2,7.61,South,Mobile Payment
+ORD-1391,2024-06-11,2024-06-15,Same Day,CUST-678,Consumer,USA,Los Angeles,Technology,Phones,6,100.11,0.2,4.66,Europe,Bank Transfer
+ORD-1392,2024-04-24,2024-04-29,Express,CUST-905,Corporate,USA,New York,Technology,Accessories,3,871.38,0.0,82.27,West,Cash
+ORD-1393,2024-05-20,2024-05-24,Same Day,CUST-233,Consumer,USA,Houston,Technology,Phones,8,408.59,0.15,52.22,Europe,Bank Transfer
+ORD-1394,2024-05-23,2024-05-28,Standard,CUST-372,Corporate,Canada,Vancouver,Technology,Laptops,6,1495.68,0.2,118.76,Europe,Card
+ORD-1395,2024-03-30,2024-04-01,Express,CUST-273,Corporate,USA,Houston,Furniture,Bookcases,10,494.69,0.2,71.66,South,Bank Transfer
+ORD-1396,2024-06-24,2024-06-27,Standard,CUST-348,Home Office,Canada,Toronto,Office Supplies,Binders,3,250.87,0.0,18.18,Central,Card
+ORD-1397,2024-04-25,2024-04-29,Standard,CUST-308,Home Office,Canada,Calgary,Office Supplies,Pens,9,53.67,0.05,10.1,Central,Mobile Payment
+ORD-1398,2024-04-06,2024-04-11,Standard,CUST-161,Corporate,UK,Birmingham,Office Supplies,Paper,4,1360.94,0.2,63.91,Europe,Cash
+ORD-1399,2024-01-18,2024-01-22,Standard,CUST-399,Home Office,USA,Houston,Technology,Phones,7,997.35,0.1,200.04,West,Mobile Payment
+ORD-1400,2024-05-04,2024-05-09,Express,CUST-674,Home Office,UK,Birmingham,Office Supplies,Pens,1,806.71,0.05,68.8,East,Bank Transfer
+ORD-1401,2024-04-10,2024-04-12,Express,CUST-341,Home Office,UK,Manchester,Furniture,Sofas,5,47.19,0.1,5.14,East,Cash
+ORD-1402,2024-02-27,2024-02-29,Standard,CUST-847,Corporate,Canada,Toronto,Technology,Monitors,9,525.84,0.15,81.07,Europe,Bank Transfer
+ORD-1403,2024-04-19,2024-04-22,Standard,CUST-311,Home Office,Canada,Toronto,Technology,Laptops,3,1366.41,0.1,171.96,Europe,Bank Transfer
+ORD-1404,2024-04-20,2024-04-22,Express,CUST-169,Home Office,USA,Chicago,Technology,Laptops,9,991.22,0.2,185.1,East,Bank Transfer
+ORD-1405,2024-03-22,2024-03-26,Same Day,CUST-856,Corporate,Canada,Toronto,Technology,Phones,3,1442.57,0.1,179.95,West,Card
+ORD-1406,2024-06-04,2024-06-09,Same Day,CUST-126,Corporate,USA,Los Angeles,Office Supplies,Pens,2,926.3,0.2,71.46,South,Bank Transfer
+ORD-1407,2024-02-17,2024-02-21,Standard,CUST-133,Corporate,UK,Birmingham,Furniture,Bookcases,1,747.34,0.05,58.76,Central,Mobile Payment
+ORD-1408,2024-02-15,2024-02-19,Express,CUST-352,Corporate,USA,Los Angeles,Office Supplies,Paper,7,1303.35,0.15,207.8,East,Mobile Payment
+ORD-1409,2024-05-13,2024-05-14,Standard,CUST-631,Home Office,UK,Manchester,Furniture,Chairs,7,688.38,0.0,155.27,East,Mobile Payment
+ORD-1410,2024-03-15,2024-03-19,Express,CUST-572,Consumer,UK,Birmingham,Office Supplies,Binders,7,609.1,0.1,112.23,Central,Card
+ORD-1411,2024-06-14,2024-06-18,Same Day,CUST-812,Home Office,UK,Birmingham,Office Supplies,Folders,3,153.85,0.2,8.94,South,Mobile Payment
+ORD-1412,2024-04-26,2024-05-01,Standard,CUST-356,Corporate,Canada,Vancouver,Office Supplies,Binders,3,1346.99,0.05,289.85,East,Card
+ORD-1413,2024-01-22,2024-01-27,Standard,CUST-487,Home Office,USA,Houston,Technology,Monitors,7,1066.77,0.2,147.14,East,Bank Transfer
+ORD-1414,2024-02-11,2024-02-13,Express,CUST-847,Corporate,Canada,Calgary,Technology,Laptops,5,284.72,0.0,38.13,West,Card
+ORD-1415,2024-01-04,2024-01-08,Standard,CUST-722,Corporate,USA,Los Angeles,Office Supplies,Pens,4,756.49,0.15,102.05,West,Mobile Payment
+ORD-1416,2024-06-02,2024-06-07,Same Day,CUST-670,Consumer,Canada,Vancouver,Furniture,Chairs,1,29.73,0.2,2.51,West,Bank Transfer
+ORD-1417,2024-01-09,2024-01-14,Standard,CUST-150,Consumer,USA,Chicago,Office Supplies,Binders,7,1260.26,0.1,131.82,West,Bank Transfer
+ORD-1418,2024-04-26,2024-05-01,Express,CUST-430,Corporate,UK,Manchester,Technology,Laptops,7,553.08,0.0,37.96,East,Mobile Payment
+ORD-1419,2024-02-04,2024-02-05,Express,CUST-637,Consumer,UK,London,Furniture,Sofas,4,1048.04,0.1,109.27,Europe,Card
+ORD-1420,2024-05-03,2024-05-08,Express,CUST-365,Home Office,USA,Miami,Technology,Phones,10,1402.16,0.1,170.88,Europe,Cash
+ORD-1421,2024-05-13,2024-05-17,Standard,CUST-825,Corporate,USA,Miami,Technology,Accessories,4,748.91,0.05,161.31,East,Card
+ORD-1422,2024-02-23,2024-02-28,Express,CUST-673,Home Office,USA,Houston,Technology,Phones,4,1498.5,0.15,75.28,East,Bank Transfer
+ORD-1423,2024-03-19,2024-03-22,Standard,CUST-802,Corporate,UK,Manchester,Furniture,Chairs,6,769.9,0.1,140.94,South,Card
+ORD-1424,2024-06-21,2024-06-25,Express,CUST-259,Home Office,USA,Los Angeles,Furniture,Bookcases,8,1375.92,0.0,246.47,Europe,Cash
+ORD-1425,2024-05-13,2024-05-16,Standard,CUST-313,Home Office,Canada,Vancouver,Technology,Phones,6,856.12,0.1,124.08,Central,Card
+ORD-1426,2024-04-06,2024-04-11,Standard,CUST-709,Consumer,USA,Chicago,Office Supplies,Pens,5,1266.76,0.2,173.43,Central,Card
+ORD-1427,2024-03-01,2024-03-04,Express,CUST-279,Consumer,Canada,Vancouver,Office Supplies,Folders,6,688.82,0.1,57.8,East,Bank Transfer
+ORD-1428,2024-05-03,2024-05-08,Same Day,CUST-994,Home Office,USA,Houston,Technology,Phones,5,248.04,0.1,52.4,Central,Bank Transfer
+ORD-1429,2024-02-22,2024-02-23,Express,CUST-145,Home Office,USA,Miami,Technology,Laptops,10,699.87,0.2,40.97,East,Cash
+ORD-1430,2024-01-06,2024-01-11,Standard,CUST-393,Corporate,Canada,Toronto,Office Supplies,Pens,9,1142.57,0.05,123.93,Central,Mobile Payment
+ORD-1431,2024-02-10,2024-02-13,Standard,CUST-311,Home Office,UK,London,Furniture,Tables,6,189.4,0.2,24.53,Europe,Cash
+ORD-1432,2024-05-26,2024-05-28,Express,CUST-653,Corporate,Canada,Toronto,Technology,Monitors,1,273.49,0.1,42.5,West,Card
+ORD-1433,2024-04-08,2024-04-09,Same Day,CUST-706,Home Office,Canada,Calgary,Office Supplies,Paper,8,147.46,0.15,10.75,Europe,Cash
+ORD-1434,2024-04-29,2024-05-04,Express,CUST-800,Home Office,Canada,Vancouver,Office Supplies,Paper,8,215.06,0.15,12.7,South,Bank Transfer
+ORD-1435,2024-04-03,2024-04-07,Express,CUST-564,Corporate,USA,Los Angeles,Technology,Monitors,1,291.36,0.1,54.48,East,Mobile Payment
+ORD-1436,2024-02-13,2024-02-16,Same Day,CUST-205,Corporate,USA,Chicago,Furniture,Sofas,2,1156.55,0.2,152.61,Central,Card
+ORD-1437,2024-05-31,2024-06-04,Express,CUST-493,Consumer,Canada,Calgary,Furniture,Sofas,6,373.09,0.05,56.56,West,Mobile Payment
+ORD-1438,2024-02-14,2024-02-15,Standard,CUST-706,Home Office,Canada,Calgary,Furniture,Tables,8,1114.26,0.2,193.75,Central,Card
+ORD-1439,2024-01-18,2024-01-23,Express,CUST-435,Corporate,Canada,Toronto,Furniture,Sofas,1,180.94,0.2,29.57,East,Bank Transfer
+ORD-1440,2024-02-07,2024-02-09,Same Day,CUST-557,Consumer,USA,Miami,Technology,Phones,4,690.4,0.1,79.53,Central,Cash
+ORD-1441,2024-03-29,2024-03-30,Express,CUST-967,Consumer,UK,Birmingham,Furniture,Sofas,5,882.44,0.2,174.57,East,Cash
+ORD-1442,2024-01-29,2024-02-01,Same Day,CUST-503,Home Office,UK,London,Office Supplies,Pens,6,1301.21,0.05,168.54,South,Mobile Payment
+ORD-1443,2024-06-18,2024-06-20,Express,CUST-960,Corporate,Canada,Vancouver,Technology,Laptops,3,722.81,0.05,110.61,Central,Bank Transfer
+ORD-1444,2024-02-06,2024-02-10,Same Day,CUST-925,Corporate,USA,New York,Office Supplies,Paper,8,993.73,0.05,63.19,Europe,Mobile Payment
+ORD-1445,2024-05-21,2024-05-25,Same Day,CUST-107,Home Office,UK,London,Furniture,Sofas,8,589.38,0.05,48.8,West,Cash
+ORD-1446,2024-01-09,2024-01-10,Express,CUST-807,Consumer,Canada,Calgary,Technology,Monitors,3,860.86,0.1,56.27,Europe,Cash
+ORD-1447,2024-03-03,2024-03-07,Same Day,CUST-917,Home Office,Canada,Calgary,Office Supplies,Paper,5,953.38,0.0,178.11,Europe,Card
+ORD-1448,2024-04-26,2024-05-01,Express,CUST-461,Corporate,Canada,Calgary,Office Supplies,Folders,5,1360.96,0.2,214.23,West,Card
+ORD-1449,2024-05-24,2024-05-27,Same Day,CUST-152,Home Office,UK,Birmingham,Technology,Monitors,5,110.9,0.15,15.61,Europe,Card
+ORD-1450,2024-05-09,2024-05-10,Same Day,CUST-387,Corporate,Canada,Vancouver,Office Supplies,Binders,5,1280.14,0.1,115.69,East,Card
+ORD-1451,2024-06-17,2024-06-21,Same Day,CUST-341,Corporate,UK,London,Technology,Laptops,3,567.25,0.05,55.1,Europe,Card
+ORD-1452,2024-05-06,2024-05-10,Same Day,CUST-752,Consumer,Canada,Toronto,Office Supplies,Binders,4,1160.14,0.05,200.74,Europe,Cash
+ORD-1453,2024-02-12,2024-02-16,Same Day,CUST-339,Corporate,USA,Chicago,Office Supplies,Paper,7,610.14,0.1,79.76,South,Cash
+ORD-1454,2024-03-14,2024-03-18,Same Day,CUST-142,Consumer,USA,Miami,Furniture,Chairs,9,585.37,0.1,127.68,Central,Mobile Payment
+ORD-1455,2024-03-10,2024-03-13,Express,CUST-572,Home Office,UK,Birmingham,Furniture,Bookcases,4,1207.43,0.1,196.55,Europe,Bank Transfer
+ORD-1456,2024-03-21,2024-03-26,Standard,CUST-521,Consumer,UK,Manchester,Technology,Laptops,9,35.66,0.0,7.71,East,Mobile Payment
+ORD-1457,2024-03-05,2024-03-07,Same Day,CUST-772,Consumer,Canada,Toronto,Technology,Monitors,10,70.38,0.2,3.85,East,Card
+ORD-1458,2024-06-17,2024-06-22,Same Day,CUST-288,Corporate,USA,Miami,Office Supplies,Folders,5,1208.74,0.05,263.19,South,Card
+ORD-1459,2024-06-26,2024-06-29,Standard,CUST-491,Corporate,UK,Manchester,Furniture,Sofas,6,400.86,0.0,42.27,East,Cash
+ORD-1460,2024-05-05,2024-05-07,Standard,CUST-247,Home Office,Canada,Toronto,Furniture,Chairs,7,923.25,0.05,157.08,West,Card
+ORD-1461,2024-01-09,2024-01-10,Standard,CUST-609,Consumer,Canada,Calgary,Furniture,Chairs,1,124.21,0.1,22.97,East,Mobile Payment
+ORD-1462,2024-04-10,2024-04-15,Express,CUST-964,Home Office,Canada,Toronto,Technology,Monitors,2,25.48,0.15,3.15,Europe,Bank Transfer
+ORD-1463,2024-02-01,2024-02-06,Express,CUST-510,Consumer,USA,Houston,Technology,Accessories,2,812.25,0.1,85.3,Central,Cash
+ORD-1464,2024-02-15,2024-02-20,Express,CUST-812,Corporate,USA,Houston,Furniture,Tables,2,78.21,0.15,12.11,Central,Mobile Payment
+ORD-1465,2024-02-05,2024-02-06,Express,CUST-164,Home Office,USA,Houston,Technology,Laptops,5,305.78,0.2,23.9,South,Mobile Payment
+ORD-1466,2024-03-27,2024-03-28,Same Day,CUST-635,Corporate,USA,New York,Furniture,Chairs,9,620.15,0.05,124.56,West,Bank Transfer
+ORD-1467,2024-05-05,2024-05-06,Same Day,CUST-764,Consumer,USA,New York,Technology,Laptops,1,717.41,0.2,33.95,West,Card
+ORD-1468,2024-05-31,2024-06-01,Same Day,CUST-918,Home Office,Canada,Toronto,Furniture,Tables,4,1230.34,0.0,89.61,East,Bank Transfer
+ORD-1469,2024-03-24,2024-03-25,Express,CUST-956,Consumer,Canada,Vancouver,Technology,Accessories,1,1464.26,0.2,186.46,Europe,Bank Transfer
+ORD-1470,2024-02-06,2024-02-10,Express,CUST-349,Home Office,Canada,Toronto,Office Supplies,Pens,1,268.72,0.1,38.86,West,Card
+ORD-1471,2024-01-05,2024-01-09,Standard,CUST-823,Home Office,UK,Birmingham,Furniture,Tables,10,139.47,0.0,11.98,Central,Mobile Payment
+ORD-1472,2024-02-22,2024-02-24,Standard,CUST-278,Home Office,UK,Manchester,Technology,Laptops,1,966.94,0.2,108.36,Europe,Bank Transfer
+ORD-1473,2024-06-09,2024-06-12,Standard,CUST-220,Home Office,UK,Manchester,Technology,Phones,2,534.82,0.0,86.4,Europe,Cash
+ORD-1474,2024-06-09,2024-06-11,Standard,CUST-801,Corporate,UK,Birmingham,Office Supplies,Folders,8,429.11,0.05,29.57,West,Bank Transfer
+ORD-1475,2024-03-13,2024-03-15,Express,CUST-144,Consumer,UK,London,Office Supplies,Pens,1,663.31,0.1,103.49,Europe,Bank Transfer
+ORD-1476,2024-01-19,2024-01-21,Express,CUST-303,Home Office,USA,New York,Furniture,Chairs,6,1087.68,0.2,144.4,West,Card
+ORD-1477,2024-04-15,2024-04-17,Same Day,CUST-596,Consumer,Canada,Toronto,Office Supplies,Binders,7,575.79,0.05,35.39,West,Bank Transfer
+ORD-1478,2024-04-05,2024-04-07,Express,CUST-307,Corporate,UK,Manchester,Office Supplies,Folders,3,697.46,0.05,116.88,East,Card
+ORD-1479,2024-04-27,2024-05-01,Express,CUST-718,Consumer,Canada,Toronto,Office Supplies,Folders,10,273.38,0.1,23.12,West,Bank Transfer
+ORD-1480,2024-02-25,2024-03-01,Same Day,CUST-538,Home Office,USA,Houston,Technology,Accessories,4,720.76,0.15,64.84,West,Cash
+ORD-1481,2024-05-26,2024-05-27,Express,CUST-851,Home Office,Canada,Calgary,Office Supplies,Binders,1,638.3,0.0,37.03,South,Mobile Payment
+ORD-1482,2024-05-06,2024-05-08,Express,CUST-323,Consumer,Canada,Calgary,Office Supplies,Folders,6,142.98,0.0,26.97,Central,Bank Transfer
+ORD-1483,2024-06-20,2024-06-23,Same Day,CUST-697,Consumer,UK,London,Office Supplies,Folders,8,259.47,0.15,48.87,South,Bank Transfer
+ORD-1484,2024-06-09,2024-06-13,Standard,CUST-494,Home Office,UK,Manchester,Office Supplies,Pens,6,1061.78,0.0,235.8,Europe,Card
+ORD-1485,2024-06-24,2024-06-25,Standard,CUST-627,Home Office,Canada,Vancouver,Furniture,Tables,6,938.27,0.1,166.48,East,Card
+ORD-1486,2024-04-03,2024-04-06,Same Day,CUST-826,Consumer,Canada,Vancouver,Furniture,Chairs,3,279.4,0.2,42.69,Central,Bank Transfer
+ORD-1487,2024-05-28,2024-05-30,Express,CUST-615,Home Office,UK,London,Technology,Accessories,7,1134.7,0.05,122.99,Central,Card
+ORD-1488,2024-05-04,2024-05-09,Same Day,CUST-794,Home Office,USA,Chicago,Furniture,Sofas,5,799.49,0.0,115.15,South,Cash
+ORD-1489,2024-04-27,2024-04-28,Standard,CUST-211,Consumer,UK,Birmingham,Office Supplies,Binders,5,138.65,0.05,14.18,East,Bank Transfer
+ORD-1490,2024-03-16,2024-03-20,Express,CUST-455,Corporate,Canada,Toronto,Office Supplies,Paper,8,1454.97,0.2,275.1,East,Cash
+ORD-1491,2024-05-13,2024-05-16,Express,CUST-597,Home Office,USA,New York,Office Supplies,Binders,9,629.3,0.1,102.6,Europe,Mobile Payment
+ORD-1492,2024-03-19,2024-03-21,Express,CUST-888,Consumer,Canada,Vancouver,Technology,Laptops,3,1188.12,0.05,165.75,Central,Cash
+ORD-1493,2024-05-17,2024-05-20,Same Day,CUST-782,Consumer,Canada,Toronto,Technology,Laptops,3,289.78,0.05,59.98,West,Card
+ORD-1494,2024-04-22,2024-04-25,Standard,CUST-781,Corporate,USA,Chicago,Technology,Laptops,6,567.11,0.05,87.55,West,Cash
+ORD-1495,2024-02-01,2024-02-02,Express,CUST-427,Consumer,Canada,Calgary,Office Supplies,Pens,1,618.75,0.15,107.14,Europe,Cash
+ORD-1496,2024-03-15,2024-03-20,Express,CUST-446,Home Office,UK,Birmingham,Furniture,Sofas,2,1006.99,0.2,157.66,South,Card
+ORD-1497,2024-01-07,2024-01-11,Standard,CUST-434,Consumer,USA,Miami,Office Supplies,Pens,10,933.93,0.05,123.5,West,Bank Transfer
+ORD-1498,2024-05-17,2024-05-21,Express,CUST-299,Corporate,Canada,Toronto,Office Supplies,Paper,6,1022.05,0.0,250.57,Europe,Card
+ORD-1499,2024-04-19,2024-04-22,Express,CUST-415,Corporate,UK,Manchester,Furniture,Tables,9,591.45,0.0,63.24,East,Bank Transfer
